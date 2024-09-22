@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="scss/styles.scss" rel="stylesheet">
+    <style>
+        #experience li{
+            text-align: justify;
+            padding-right: 1em; 
+        }
+    </style>
 </head>
 
 <body>
@@ -75,7 +82,7 @@
                     <p>
                     Software Engineer with a strong interest in sustainable and inclusive mobility. <br><br>
                     Experience as an Electronic Hardware Intern at John Deere, he excels in maintaining software builders for engine controllers, collaborating in Agile methodologies, and programming applications in Python. My Thesis role at Audi AG involved designing adaptive headlights using Raspberry PI, Arduino, Python, and C++, earning him a final grade of 98/100. Also served as a Connected Infotainment Intern, contributing to the definition of maturity criteria for infotainment functions and conducting residual bus simulations.<br><br>
-                    My educational background includes a B.S. in Electronic Technologies and Robotics from the Universidad de Monterrey and a B.S. in Electrical Engineering and Informatics from Ruhr-Universität Bochum. Fluent in Spanish, English, and German, am equipped with diverse technical skills, from programming languages to development workflows. With additional experiences in supervisory roles and volunteering.
+                    My educational background includes a B.S. in Electronic Technologies and Robotics from the Universidad de Monterrey and an exchange year for B.S. in Electrical Engineering and Informatics from Ruhr-Universität Bochum. Fluent in Spanish, English, and German, am equipped with diverse technical skills, from programming languages to development workflows. With additional experiences in supervisory roles and volunteering.
                     </p>
                 </div>
             </div>
@@ -86,58 +93,91 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+            <div data-date="June 2024 – Present">
+                <h3>Datafor.xyz</h3>
+                <h4>Freelance Software Engineer</h4>
+                <ul>
+                    <li>Developed automated test scripts and conducted thorough manual and automated testing for safety-critical buy and sell transaction software using Python (Kivy library).</li>
+                    <li>Identified, analyzed, and resolved software bugs during test operations to ensure software reliability and quality.</li>
+                    <li>Managed test case creation and issue tracking using GitLab, enhancing workflow efficiency for remote teams.</li>
+                </ul>
             </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+    
+            <div data-date="April 2024 – Present">
+                <h3>Alten Mexico</h3>
+                <h4>HiL Engineer</h4>
+                <ul>
+                    <li>Executed comprehensive software tests in connectivity and infotainment modules for vehicle systems, ensuring high software quality in Ford Mexico's Project as FNV Tester.</li>
+                    <li>Created, documented, and tracked test cases using JIRA and TestRail, ensuring traceability and repeatability of tests.</li>
+                    <li>Collaborated with developers for software troubleshooting and bug resolution, utilizing CAN Bus and Ethernet protocols to monitor communication between vehicle modules.</li>
+                    <li>Managed test environments, flashed and updated software in vehicle modules, maintaining accuracy across versions.</li>
+                </ul>
             </div>
-
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+    
+            <div data-date="January 2024 – April 2024">
+                <h3>Wallgo</h3>
+                <h4>Freelance Software Developer</h4>
+                <ul>
+                    <li>Implemented a closed-loop software system to receive video from an RPi connected to a camera, detecting plates and sending images to a Web Application to process. </li>
+                    <li>Designed and developed a Python application with Flask, controlling the camera vision.</li>
+                    <li>Developed and debugged the application code in Python; tracked application bugs and development in a GitHub repository.</li>
+                </ul>
+            </div>
+    
+            <div data-date="February 2023 – December 2023">
+                <h3>John Deere</h3>
+                <h4>Electronic Hardware Intern</h4>
+                <ul>
+                    <li>Maintained software builder for engine controllers, identified and corrected software builder inconsistencies. </li>
+                    <li>Collaborated with stakeholders to distribute iterations of software for engine controllers in Agile Methodologies. </li>
+                    <li>Redesigned, programmed, and documented an application for a Rotary Sensor Speed Test Bench in Python, optimizing different devices used in one single application communicating with sensors and database creation. </li>
+                    <li>Developed and debugged an application in Python; tracked bugs and development in a GitHub repository.</li>
+                </ul>
+            </div>
+    
+            <div data-date="April 2022 – September 2022">
+                <h3>Audi AG</h3>
+                <h4>Connected Infotainment Intern</h4>
+                <ul>
+                    <li>Defined criteria for infotainment functions, and helped to conduct software tests for Automotive Infotainment Software to demonstrate maturity level, adapting for hybrid work environments.</li>
+                    <li>Operated the setup of a residual bus simulation at a test bench, and assembled a simulation with Android Studio including mapping of the entire vehicle via residual bus simulation, resulting in more efficient testing durations, using Postman for vehicle parameter tracking inside the simulation.</li>
+                    <li>Organized meetings with suppliers, created and maintained DevOps and Jira dashboards for tracking the development of infotainment functions and extracted and examined competition analysis and research work.</li>
+                </ul>
             </div>
         </div>
     </div>
+    
     <!-- End #experience -->
 
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
+            <h3>Universidad de Monterrey</h3>
+            <span class="education-date">Aug 2018 - Dec 2023</span>
+            <h4>Bachelor of Science in Electronic Technologies and Robotics</h4>
+            <ul>
+                <li>Academic excellence scholarship creditor.</li>
+                <li>Voluntary teacher at program for middle school to taught kids to learn coding.</li>
+                <li>President of the student society of my career.</li>
+                <li>Vice-president of the federation for students from Tamaulipas</li>
+                <li>Collaborate and secretary of the university associate group Gente UDEM.</li>
+            </ul>
         </div>
         <!-- End .education-block -->
 
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>Ruhr-Universität Bochum</h3>
+            <span class="education-date">Oct 2021 - Jan 2023</span>
+            <h4>Bachelor of Science in Electrical Engineering and Computer Science</h4>
             <ul>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    KOSPIE DAAD scholarship for academic exchange in Germany creditor.
                 </li>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    International student for 3 semesters abroad.
                 </li>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Focusing on global vision, internationalization, technology management, and the German language.
                 </li>
             </ul>
         </div>
@@ -155,11 +195,11 @@
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>German-English Learning App</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            Python desktop application that allows users to study German vocabulary.
                         </p>
-                        <a href="#">View Project</a>
+                        <a href="project-german.html">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -188,32 +228,29 @@
     <div id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
+            <li>English</li>
+            <li>Spanish</li>
+            <li>German</li>
+            <li>Pyhton</li>
             <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
             <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>Jira</li>
+            <li>Microsoft Office</li>
+            <li>TestRail</li>
+            <li>Azure DevOps</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>GitLab</li>
+            <li>Hardware in the Loop</li>
+            <li>CAN Bus</li>
+            <li>Ethernet</li>
+            <li>Postman</li>
+            <li>Windows</li>
+            <li>MacOS</li>
+            <li>Linux</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -221,7 +258,7 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="https://formspree.io/f/xpwaglon">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -237,7 +274,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                        Copyright &copy; <span id="current-year">2024</span> Julio Martinez
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,22 +285,10 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/juliomtz00" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://linkedin.com/in/juliomtz00" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
