@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julio Martinez | Project | Monocular Camera Calibration</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+    /* styles.css */
+
+    html {
+        width: 100%; /* Ensure full height */
+        height: max-content;
+        margin: 0; /* Remove default margin */
+    }
+
+    body {
+        font-family: 'Lato', sans-serif;
+        display: flex; /* Flexbox for body */
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        background-color: #f9f9f9; /* Light background */
+    }
+
+    .headings {
+        padding-top: 3em;
+        font-size: 2rem; /* Heading size */
+        margin-bottom: 20px; /* Space below heading */
+        color: #333; /* Text color */
+        text-align: center; /* Center the heading text */
+    }
+
+    .containers {
+        text-align: center; /* Center align text */
+        padding-left: 10em;
+        padding-right: 10em;
+        padding-top: 2em;
+        padding-bottom: 5em;
+    }
+
+    .project-information {
+        background-color: #fff; /* White background for project info */
+        padding: 10rem;
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+
+    .project-information img {
+        max-width: 100%; /* Responsive image */
+        height: auto;
+        border-radius: 8px; /* Match the border radius */
+        margin-bottom: 20px; /* Space below image */
+    }
+
+    ul {
+        list-style-type: none; /* Remove default list styling */
+        padding-bottom: 3em; /* Remove default padding */
+        margin: 20px 0; /* Space around list */
+    }
+
+    li {
+        margin-bottom: 10px; /* Space between list items */
+    }
+
+    .backbutton {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff; /* Button color */
+        color: white; /* Text color */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded button */
+        text-decoration: none; /* Remove underline */
+        font-weight: bold; /* Bold text */
+    }
+
+    .backbutton:hover {
+        background-color: #0056b3; /* Darker shade on hover */
+    }
+
+    </style>
+</head>
+<body class="myproject">
+    <div id="project-details" class="background-alt">
+        <h2 class="headings">Project: Monocular Camera Calibration</h2>
+        <div class="containers">
+            <div class="project-information">
+                <img src="images/monocularcam1.png" alt="Project Image" />
+                <img src="images/monocularcam2.png" alt="Project Image" />
+
+                <ul>
+                    <li>This assignment aims to familiarize learners with the calibration process for a monocular camera, correcting radial and tangential distortion in captured images. Materials required include: a personal computer, a chessboard calibration board, a monocular camera, and Python 3.10 with libraries like OpenCV, NumPy, ArgParse, glob, and textwrap.</li>
+                    <li>The methodology involves working with a dataset of around 30-40 images captured by a GoPro Hero 3+ camera (can be from any other camera). The Python script estimates intrinsic camera parameters and compensates for image distortion; detects corners in calibration images, performs calibration, and outputs camera matrix and lens distortion parameters. After obtaining intrinsic calibration parameters, the script corrects image distortion, saving the corrected images in a folder named undistorted-images. A function is recommended to save camera parameters in a TXT file.</li>
+                </ul>
+                <a class="backbutton" href="index.html" class="btn-rounded-white">Back to Projects</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

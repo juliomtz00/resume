@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julio Martinez | Project | Vehicle controlled with Computer Vision</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+    /* styles.css */
+
+    html {
+        width: 100%; /* Ensure full height */
+        height: max-content;
+        margin: 0; /* Remove default margin */
+    }
+
+    body {
+        font-family: 'Lato', sans-serif;
+        display: flex; /* Flexbox for body */
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        background-color: #f9f9f9; /* Light background */
+    }
+
+    .headings {
+        padding-top: 3em;
+        font-size: 2rem; /* Heading size */
+        margin-bottom: 20px; /* Space below heading */
+        color: #333; /* Text color */
+        text-align: center; /* Center the heading text */
+    }
+
+    .containers {
+        text-align: center; /* Center align text */
+        padding-left: 10em;
+        padding-right: 10em;
+        padding-top: 2em;
+        padding-bottom: 5em;
+    }
+
+    .project-information {
+        background-color: #fff; /* White background for project info */
+        padding: 10rem;
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+
+    .project-information img {
+        max-width: 100%; /* Responsive image */
+        height: auto;
+        border-radius: 8px; /* Match the border radius */
+        margin-bottom: 20px; /* Space below image */
+    }
+
+    ul {
+        list-style-type: none; /* Remove default list styling */
+        padding-bottom: 3em; /* Remove default padding */
+        margin: 20px 0; /* Space around list */
+    }
+
+    li {
+        margin-bottom: 10px; /* Space between list items */
+    }
+
+    .backbutton {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff; /* Button color */
+        color: white; /* Text color */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded button */
+        text-decoration: none; /* Remove underline */
+        font-weight: bold; /* Bold text */
+    }
+
+    .backbutton:hover {
+        background-color: #0056b3; /* Darker shade on hover */
+    }
+
+    </style>
+</head>
+<body class="myproject">
+    <div id="project-details" class="background-alt">
+        <h2 class="headings">Project: Vehicle controlled with Computer Vision</h2>
+        <div class="containers">
+            <div class="project-information">
+                <img src="images/vehiclecv1.png" alt="Project Image" />
+                <img src="images/vehiclecv2.png" alt="Project Image" />
+
+                <ul>
+                    <li>Objective: Build a small vehicle controlled through a microcontroller that could be programmed with Python to obtain coordinates of movement from a camera on top of the vehicle, controlling the vehicle through computer vision.</li>
+                    <li>Materials: Raspberry Pi Zero W, Internet Access, Python 3.11, Python Libraries like OpenCV, Pandas, Matplotlib, Numpy, Web Camera.</li>
+                    <li>Operation: With the help of the web camera placed on the ceiling, the algorithm could transform the pixels from the image into coordinates, that could be used to know the position of the vehicle and move it according to the commands set by the user at any given moment to reach the goal.</li>
+                </ul>
+                <a class="backbutton" href="index.html" class="btn-rounded-white">Back to Projects</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

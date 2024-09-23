@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julio Martinez | Project | Sports analytics using Computer Vision</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+    /* styles.css */
+
+    html {
+        width: 100%; /* Ensure full height */
+        height: max-content;
+        margin: 0; /* Remove default margin */
+    }
+
+    body {
+        font-family: 'Lato', sans-serif;
+        display: flex; /* Flexbox for body */
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        background-color: #f9f9f9; /* Light background */
+    }
+
+    .headings {
+        padding-top: 3em;
+        font-size: 2rem; /* Heading size */
+        margin-bottom: 20px; /* Space below heading */
+        color: #333; /* Text color */
+        text-align: center; /* Center the heading text */
+    }
+
+    .containers {
+        text-align: center; /* Center align text */
+        padding-left: 10em;
+        padding-right: 10em;
+        padding-top: 2em;
+        padding-bottom: 5em;
+    }
+
+    .project-information {
+        background-color: #fff; /* White background for project info */
+        padding: 10rem;
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+
+    .project-information img {
+        max-width: 100%; /* Responsive image */
+        height: auto;
+        border-radius: 8px; /* Match the border radius */
+        margin-bottom: 20px; /* Space below image */
+    }
+
+    ul {
+        list-style-type: none; /* Remove default list styling */
+        padding-bottom: 3em; /* Remove default padding */
+        margin: 20px 0; /* Space around list */
+    }
+
+    li {
+        margin-bottom: 10px; /* Space between list items */
+    }
+
+    .backbutton {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff; /* Button color */
+        color: white; /* Text color */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded button */
+        text-decoration: none; /* Remove underline */
+        font-weight: bold; /* Bold text */
+    }
+
+    .backbutton:hover {
+        background-color: #0056b3; /* Darker shade on hover */
+    }
+
+    </style>
+</head>
+<body class="myproject">
+    <div id="project-details" class="background-alt">
+        <h2 class="headings">Project: Sports analytics using Computer Vision</h2>
+        <div class="containers">
+            <div class="project-information">
+                <img src="images/cvfootball1.png" alt="Project Image" />
+                <img src="images/cvfootball2.png" alt="Project Image" />
+                <img src="images/cvfootball3.png" alt="Project Image" />
+                <img src="images/cvfootball4.png" alt="Project Image" />
+                <img src="images/cvfootball5.png" alt="Project Image" />
+                <img src="images/cvfootball6.png" alt="Project Image" />
+                <img src="images/cvfootball7.png" alt="Project Image" />
+                <img src="images/cvfootball8.png" alt="Project Image" />
+                <ul>
+                    <li>Detecting moving objects in video sequences captured by an aerial vehicle over a soccer field. The goal is to detect either the soccer ball or soccer players and count their occurrences on each side of the field.</li>
+                    <li>Required materials include a personal computer, two video sequences, and Python 3.10 with libraries like OpenCV, NumPy, ArgParse, glob, and text-wrap.The methodology involves analyzing the problem requirements and developing separate scripts for the two datasets.</li>
+                    <li>For the first dataset, the algorithm filters the image to detect the moving soccer ball.</li>
+                    <li>For the second dataset, it utilizes background subtraction and morphology to track moving soccer players and the ball. Perimeter detection is implemented, and the user defines the field's perimeter by clicking with the mouse or trackpad.</li>
+                    <li>The results show successful detection of objects and counting occurrences, although some noise and processing errors are noted.</li>
+                </ul>
+                <a class="backbutton" href="index.html" class="btn-rounded-white">Back to Projects</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
